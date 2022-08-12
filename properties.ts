@@ -36,7 +36,7 @@ class Taxi implements Vehicle {
 
 
 let taxi_1: Taxi = new Taxi({ x: 1, y: 2 }, "black");
-// taxi_1.travelTo({ x: 1, y: 2 })
+// taxi_1.travelTo({ x: 1, y: 2 }) 
 
 taxi_1.location = { x: 2, y: 5 }
 
